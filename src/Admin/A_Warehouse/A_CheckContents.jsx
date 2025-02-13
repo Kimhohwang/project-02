@@ -12,6 +12,7 @@ const A_CheckContents = () => {
           </li>
         </ol>
       </nav>
+      <div></div>
     </A_Navbar>
   );
 };
