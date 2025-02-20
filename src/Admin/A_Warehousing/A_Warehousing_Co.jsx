@@ -306,7 +306,20 @@ const A_Warehousing_Co = () => {
             </div>
           </div>
           <div className="card">
-            <div className="card-header">총 1 건</div>
+            <div className="card-header">
+              <div className="d-flex align-items-center">
+                <p className="m-0 me-2">총 1건</p>
+                <select
+                  className="form-select form-select-sm w-25"
+                  aria-label="Default select example"
+                >
+                  <option selected>10개 보기</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+            </div>
             <div className="card-body table-responsive text-nowrap">
               <table className="table table-sm table-hover text-center">
                 <thead>

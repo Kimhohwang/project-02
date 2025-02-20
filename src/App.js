@@ -24,6 +24,12 @@ import A_StockCheck from "./Admin/A_Warehouse/A_StockCheck";
 import A_ShippingRequest from "./Admin/A_Shipment/A_ShippingRequest";
 import A_Repacking from "./Admin/A_Shipment/A_Repacking";
 import A_Warehousing_Co from "./Admin/A_Warehousing/A_Warehousing_Co";
+import CustomOrder01 from "./Admin/A_CustomOrder/Request/CustomOrder01";
+import CustomOrder02 from "./Admin/A_CustomOrder/Request/CustomOrder02";
+import CustomOrder03 from "./Admin/A_CustomOrder/Request/CustomOrder03";
+import CustomOrder04 from "./Admin/A_CustomOrder/Request/CustomOrder04";
+import CustomOrder05 from "./Admin/A_CustomOrder/Request/CustomOrder05";
+import A_Notice from "./Admin/A_Manager/A_Notice";
 
 function App() {
   return (
@@ -53,6 +59,13 @@ function App() {
         <Route path="/관리자_재고조사" element={<A_StockCheck />} />
         <Route path="/관리자_배송요청서" element={<A_ShippingRequest />} />
         <Route path="/관리자_상품포장중" element={<A_Repacking />} />
+        <Route path="/관리자_공지사항" element={<A_Notice />} />
+
+        <Route path="/구매대행_요청" element={<CustomOrder01 />} />
+        <Route path="/구매대행_결제대기" element={<CustomOrder02 />} />
+        <Route path="/구매대행_결제완료" element={<CustomOrder03 />} />
+        <Route path="/구매대행_주문완료" element={<CustomOrder04 />} />
+        <Route path="/구매대행_취소" element={<CustomOrder05 />} />
       </Routes>
     </Router>
   );

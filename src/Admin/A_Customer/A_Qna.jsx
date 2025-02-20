@@ -20,7 +20,7 @@ const A_Qna = () => {
               className="form-select form-select-sm me-2"
               aria-label="Default select example"
             >
-              <option selected>질문유형선택</option>
+              <option selected>필터(질문유형)</option>
               <option value="1">One</option>
               <option value="2">Two</option>
               <option value="3">Three</option>

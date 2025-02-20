@@ -39,6 +39,17 @@ const A_CustomerList = () => {
       </div>
 
       <div className="card rounded-4">
+        <div className="card-header">
+          <select
+            className="form-select form-select-sm w-25"
+            aria-label="Default select example"
+          >
+            <option selected>페이지 노출수량</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
         <div className="card-body">
           <div className="table-responsive text-nowrap">
             <table className="table table-sm text-center">

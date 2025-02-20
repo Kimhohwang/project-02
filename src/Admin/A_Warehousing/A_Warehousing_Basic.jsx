@@ -125,7 +125,7 @@ const A_Warehousing_Basic = () => {
                       </tbody>
                     </table>
                   </div>
-                  <div className="col-sm-9">
+                  <div className="col-sm-6">
                     <div className="card">
                       <div className="card-body text-center">
                         {previewImage ? (
@@ -193,7 +193,7 @@ const A_Warehousing_Basic = () => {
                     <th>스페이스코드</th>
                     <th>성함</th>
                     <th>위치</th>
-                    <th>입고일</th>
+                    <th>입고날짜</th>
                   </tr>
                 </thead>
                 <tbody>

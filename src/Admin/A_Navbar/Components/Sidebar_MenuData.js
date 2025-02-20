@@ -72,7 +72,7 @@ const MENU_DATA = [
         subItems: [
           { label: "쿠폰", href: "/쿠폰" },
           { label: "포인트", href: "/포인트" },
-          { label: "공지사항", href: "/공지사항" },
+          { label: "공지사항", href: "/관리자_공지사항" },
           { label: "폐기관리", href: "/폐기관리" },
           { label: "배송견적서", href: "/배송견적서" },
         ],
